@@ -1,0 +1,486 @@
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Guna.UI2.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\ZstdSharp.dll
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.pdb
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.login.resources
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.YeniMusteri.resources
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Anasayfa.resources
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Odalar.resources
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Ayarlar.resources
+C:\Users\demir\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Personel.resources
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Guna.UI2.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\ZstdSharp.dll
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.pdb
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Anasayfa.resources
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Ayarlar.resources
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.login.resources
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Odalar.resources
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Personel.resources
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.YeniMusteri.resources
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.SuggestedBindingRedirects.cache
+C:\Users\doguk\Desktop\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe.config
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Guna.UI2.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\ZstdSharp.dll
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.pdb
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe.config
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Anasayfa.resources
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Ayarlar.resources
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.login.resources
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Odalar.resources
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Personel.resources
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.YeniMusteri.resources
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+E:\NTP PROJE\otelrezervasyon(sonhali)\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Guna.UI2.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\ZstdSharp.dll
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.pdb
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe.config
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Anasayfa.resources
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Ayarlar.resources
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.login.resources
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Odalar.resources
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Personel.resources
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.YeniMusteri.resources
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+E:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\zu\WindowsFormsApp9.resources.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Guna.UI2.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\ZstdSharp.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.pdb
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe.config
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Anasayfa.resources
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Ayarlar.resources
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.login.resources
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Odalar.resources
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Personel.resources
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.YeniMusteri.resources
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.login.zu.resources
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\zu\WindowsFormsApp9.resources.dll
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\lab5-00\Desktop\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\zu\WindowsFormsApp9.resources.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Guna.UI2.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\ZstdSharp.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.pdb
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.SuggestedBindingRedirects.cache
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe.config
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Anasayfa.resources
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Ayarlar.resources
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.login.resources
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Odalar.resources
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Personel.resources
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.YeniMusteri.resources
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.login.zu.resources
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\zu\WindowsFormsApp9.resources.dll
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+D:\NTP PROJE\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\zu\WindowsFormsApp9.resources.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Guna.UI2.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\ZstdSharp.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.pdb
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.SuggestedBindingRedirects.cache
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe.config
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Anasayfa.resources
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Ayarlar.resources
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.login.resources
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Odalar.resources
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Personel.resources
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.YeniMusteri.resources
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.login.zu.resources
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\zu\WindowsFormsApp9.resources.dll
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\doguk\Desktop\c#\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\zu\WindowsFormsApp9.resources.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Guna.UI2.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\ZstdSharp.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.pdb
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Google.Protobuf.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\MySqlConnector.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Buffers.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.IO.Pipelines.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Memory.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe.config
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Anasayfa.resources
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Ayarlar.resources
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.login.resources
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Odalar.resources
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Personel.resources
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.YeniMusteri.resources
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.login.zu.resources
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\zu\WindowsFormsApp9.resources.dll
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\lab5-00\Desktop\proje teslim\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb

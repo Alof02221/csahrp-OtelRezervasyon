@@ -1,0 +1,316 @@
+ï»¿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.IO.Pipelines</name>
+  </assembly>
+  <members>
+    <member name="T:System.IO.Pipelines.FlushResult">
+      <summary>Result returned by <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> call.</summary>
+    </member>
+    <member name="M:System.IO.Pipelines.FlushResult.#ctor(System.Boolean,System.Boolean)">
+      <summary>Initializes a new instance of <see cref="T:System.IO.Pipelines.FlushResult" /> struct setting the <see cref="P:System.IO.Pipelines.FlushResult.IsCanceled" /> and <see cref="P:System.IO.Pipelines.FlushResult.IsCompleted" /> flags.</summary>
+      <param name="isCanceled">
+        <see langword="true" /> to indicate the current <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> operation that produced this <see cref="T:System.IO.Pipelines.FlushResult" /> was canceled by <see cref="M:System.IO.Pipelines.PipeWriter.CancelPendingFlush" />; otherwise, <see langword="false" />.</param>
+      <param name="isCompleted">
+        <see langword="true" /> to indicate the reader is no longer reading data written to the <see cref="T:System.IO.Pipelines.PipeWriter" />.</param>
+    </member>
+    <member name="P:System.IO.Pipelines.FlushResult.IsCanceled">
+      <summary>Gets a value that indicates whether the current <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> operation was canceled.</summary>
+      <returns>
+        <see langword="true" /> if the current <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> operation was canceled; otherwise, <see langword="false" />.</returns>
+    </member>
+    <member name="P:System.IO.Pipelines.FlushResult.IsCompleted">
+      <summary>Gets a value that indicates the reader is no longer reading data written to the <see cref="T:System.IO.Pipelines.PipeWriter" />.</summary>
+      <returns>
+        <see langword="true" /> if the reader is no longer reading data written to the <see cref="T:System.IO.Pipelines.PipeWriter" />; otherwise, <see langword="false" />.</returns>
+    </member>
+    <member name="T:System.IO.Pipelines.IDuplexPipe">
+      <summary>Defines a class that provides a duplex pipe from which data can be read from and written to.</summary>
+    </member>
+    <member name="P:System.IO.Pipelines.IDuplexPipe.Input">
+      <summary>Gets the <see cref="T:System.IO.Pipelines.PipeReader" /> half of the duplex pipe.</summary>
+    </member>
+    <member name="P:System.IO.Pipelines.IDuplexPipe.Output">
+      <summary>Gets the <see cref="T:System.IO.Pipelines.PipeWriter" /> half of the duplex pipe.</summary>
+    </member>
+    <member name="T:System.IO.Pipelines.Pipe">
+      <summary>The default <see cref="T:System.IO.Pipelines.PipeWriter" /> and <see cref="T:System.IO.Pipelines.PipeReader" /> implementation.</summary>
+    </member>
+    <member name="M:System.IO.Pipelines.Pipe.#ctor">
+      <summary>Initializes a new instance of the <see cref="T:System.IO.Pipelines.Pipe" /> class using <see cref="P:System.IO.Pipelines.PipeOptions.Default" /> as options.</summary>
+    </member>
+    <member name="M:System.IO.Pipelines.Pipe.#ctor(System.IO.Pipelines.PipeOptions)">
+      <summary>Initializes a new instance of the <see cref="T:System.IO.Pipelines.Pipe" /> class with the specified options.</summary>
+      <param name="options">The set of options for this pipe.</param>
+    </member>
+    <member name="M:System.IO.Pipelines.Pipe.Reset">
+      <summary>Resets the pipe.</summary>
+    </member>
+    <member name="P:System.IO.Pipelines.Pipe.Reader">
+      <summary>Gets the <see cref="T:System.IO.Pipelines.PipeReader" /> for this pipe.</summary>
+      <returns>A <see cref="T:System.IO.Pipelines.PipeReader" /> instance for this pipe.</returns>
+    </member>
+    <member name="P:System.IO.Pipelines.Pipe.Writer">
+      <summary>Gets the <see cref="T:System.IO.Pipelines.PipeWriter" /> for this pipe.</summary>
+      <returns>A <see cref="T:System.IO.Pipelines.PipeWriter" /> instance for this pipe.</returns>
+    </member>
+    <member name="T:System.IO.Pipelines.PipeOptions">
+      <summary>Represents a set of <see cref="T:System.IO.Pipelines.Pipe" /> options.</summary>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeOptions.#ctor(System.Buffers.MemoryPool{System.Byte},System.IO.Pipelines.PipeScheduler,System.IO.Pipelines.PipeScheduler,System.Int64,System.Int64,System.Int32,System.Boolean)">
+      <summary>Initializes a new instance of the <see cref="T:System.IO.Pipelines.PipeOptions" /> class with the specified parameters.</summary>
+      <param name="pool">The pool of memory blocks to be used for buffer management.</param>
+      <param name="readerScheduler">The <see cref="T:System.IO.Pipelines.PipeScheduler" /> to be used to execute <see cref="T:System.IO.Pipelines.PipeReader" /> callbacks and async continuations.</param>
+      <param name="writerScheduler">The <see cref="T:System.IO.Pipelines.PipeScheduler" /> used to execute <see cref="T:System.IO.Pipelines.PipeWriter" /> callbacks and async continuations.</param>
+      <param name="pauseWriterThreshold">The number of bytes in the <see cref="T:System.IO.Pipelines.Pipe" /> before <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> starts blocking. A value of zero prevents <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> from ever blocking, effectively making the number of bytes in the <see cref="T:System.IO.Pipelines.Pipe" /> unlimited.</param>
+      <param name="resumeWriterThreshold">The number of bytes in the <see cref="T:System.IO.Pipelines.Pipe" /> when <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> stops blocking.</param>
+      <param name="minimumSegmentSize">The minimum size of the segment requested from <paramref name="pool" />.</param>
+      <param name="useSynchronizationContext">
+        <see langword="true" /> if asynchronous continuations should be executed on the <see cref="T:System.Threading.SynchronizationContext" /> they were captured on; <see langword="false" /> otherwise. This takes precedence over the schedulers specified in <see cref="P:System.IO.Pipelines.PipeOptions.ReaderScheduler" /> and <see cref="P:System.IO.Pipelines.PipeOptions.WriterScheduler" />.</param>
+    </member>
+    <member name="P:System.IO.Pipelines.PipeOptions.Default">
+      <summary>Gets the default instance of <see cref="T:System.IO.Pipelines.PipeOptions" />.</summary>
+      <returns>A <see cref="T:System.IO.Pipelines.PipeOptions" /> object initialized with default parameters.</returns>
+    </member>
+    <member name="P:System.IO.Pipelines.PipeOptions.MinimumSegmentSize">
+      <summary>Gets the minimum size of the segment requested from the <see cref="P:System.IO.Pipelines.PipeOptions.Pool" />.</summary>
+      <returns>The minimum size of the segment requested from the <see cref="P:System.IO.Pipelines.PipeOptions.Pool" />.</returns>
+    </member>
+    <member name="P:System.IO.Pipelines.PipeOptions.PauseWriterThreshold">
+      <summary>Gets the number of bytes in the <see cref="T:System.IO.Pipelines.Pipe" /> when <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> starts blocking.</summary>
+      <returns>The number of bytes in the <see cref="T:System.IO.Pipelines.Pipe" /> when <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> starts blocking.</returns>
+    </member>
+    <member name="P:System.IO.Pipelines.PipeOptions.Pool">
+      <summary>Gets the <see cref="T:System.Buffers.MemoryPool`1" /> object used for buffer management.</summary>
+      <returns>A pool of memory blocks used for buffer management.</returns>
+    </member>
+    <member name="P:System.IO.Pipelines.PipeOptions.ReaderScheduler">
+      <summary>Gets the <see cref="T:System.IO.Pipelines.PipeScheduler" /> used to execute <see cref="T:System.IO.Pipelines.PipeReader" /> callbacks and async continuations.</summary>
+      <returns>A <see cref="T:System.IO.Pipelines.PipeScheduler" /> that is used to execute <see cref="T:System.IO.Pipelines.PipeReader" /> callbacks and async continuations.</returns>
+    </member>
+    <member name="P:System.IO.Pipelines.PipeOptions.ResumeWriterThreshold">
+      <summary>Gets the number of bytes in the <see cref="T:System.IO.Pipelines.Pipe" /> when <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> stops blocking.</summary>
+      <returns>The number of bytes in the <see cref="T:System.IO.Pipelines.Pipe" /> when <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> stops blocking.</returns>
+    </member>
+    <member name="P:System.IO.Pipelines.PipeOptions.UseSynchronizationContext">
+      <summary>Gets a value that determines if asynchronous callbacks and continuations should be executed on the <see cref="T:System.Threading.SynchronizationContext" /> they were captured on. This takes precedence over the schedulers specified in <see cref="P:System.IO.Pipelines.PipeOptions.ReaderScheduler" /> and <see cref="P:System.IO.Pipelines.PipeOptions.WriterScheduler" />.</summary>
+      <returns>
+        <see langword="true" /> if asynchronous callbacks and continuations should be executed on the <see cref="T:System.Threading.SynchronizationContext" /> they were captured on; otherwise, <see langword="false" />.</returns>
+    </member>
+    <member name="P:System.IO.Pipelines.PipeOptions.WriterScheduler">
+      <summary>Gets the <see cref="T:System.IO.Pipelines.PipeScheduler" /> used to execute <see cref="T:System.IO.Pipelines.PipeWriter" /> callbacks and async continuations.</summary>
+      <returns>A <see cref="T:System.IO.Pipelines.PipeScheduler" /> object used to execute <see cref="T:System.IO.Pipelines.PipeWriter" /> callbacks and async continuations.</returns>
+    </member>
+    <member name="T:System.IO.Pipelines.PipeReader">
+      <summary>Defines a class that provides access to a read side of pipe.</summary>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.#ctor">
+      <summary>Initializes a new instance of the <see cref="T:System.IO.Pipelines.PipeReader" /> class.</summary>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.AdvanceTo(System.SequencePosition)">
+      <summary>Moves forward the pipeline's read cursor to after the consumed data, marking the data as processed.</summary>
+      <param name="consumed">Marks the extent of the data that has been successfully processed.</param>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.AdvanceTo(System.SequencePosition,System.SequencePosition)">
+      <summary>Moves forward the pipeline's read cursor to after the consumed data, marking the data as processed, read and examined.</summary>
+      <param name="consumed">Marks the extent of the data that has been successfully processed.</param>
+      <param name="examined">Marks the extent of the data that has been read and examined.</param>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.AsStream(System.Boolean)">
+      <summary>Returns a <see cref="T:System.IO.Stream" /> representation of the <see cref="T:System.IO.Pipelines.PipeReader" />.</summary>
+      <param name="leaveOpen">An optional flag that indicates whether disposing the returned <see cref="T:System.IO.Stream" /> leaves <see cref="T:System.IO.Pipelines.PipeReader" /> open (<see langword="true" />) or completes <see cref="T:System.IO.Pipelines.PipeReader" /> (<see langword="false" />).</param>
+      <returns>A stream that represents the <see cref="T:System.IO.Pipelines.PipeReader" />.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.CancelPendingRead">
+      <summary>Cancels to currently pending or if none is pending next call to <see cref="M:System.IO.Pipelines.PipeReader.ReadAsync(System.Threading.CancellationToken)" />, without completing the <see cref="T:System.IO.Pipelines.PipeReader" />.</summary>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.Complete(System.Exception)">
+      <summary>Signals to the producer that the consumer is done reading.</summary>
+      <param name="exception">Optional <see cref="T:System.Exception" /> indicating a failure that's causing the pipeline to complete.</param>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.CompleteAsync(System.Exception)">
+      <summary>Marks the current pipe reader instance as being complete, meaning no more data will be read from it.</summary>
+      <param name="exception">An optional exception that indicates the failure that caused the reader to complete.</param>
+      <returns>A value task that represents the asynchronous complete operation.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.CopyToAsync(System.IO.Pipelines.PipeWriter,System.Threading.CancellationToken)">
+      <summary>Asynchronously reads the bytes from the <see cref="T:System.IO.Pipelines.PipeReader" /> and writes them to the specified <see cref="T:System.IO.Pipelines.PipeWriter" />, using a specified buffer size and cancellation token.</summary>
+      <param name="destination">The pipe writer to which the contents of the current stream will be copied.</param>
+      <param name="cancellationToken">The token to monitor for cancellation requests. The default value is <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <returns>A task that represents the asynchronous copy operation.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.CopyToAsync(System.IO.Stream,System.Threading.CancellationToken)">
+      <summary>Asynchronously reads the bytes from the <see cref="T:System.IO.Pipelines.PipeReader" /> and writes them to the specified stream, using a specified cancellation token.</summary>
+      <param name="destination">The stream to which the contents of the current stream will be copied.</param>
+      <param name="cancellationToken">The token to monitor for cancellation requests. The default value is <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <returns>A task that represents the asynchronous copy operation.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.Create(System.IO.Stream,System.IO.Pipelines.StreamPipeReaderOptions)">
+      <summary>Creates a <see cref="T:System.IO.Pipelines.PipeReader" /> wrapping the specified <see cref="T:System.IO.Stream" />.</summary>
+      <param name="stream">The stream that the pipe reader will wrap.</param>
+      <param name="readerOptions">The options to configure the pipe reader.</param>
+      <returns>A <see cref="T:System.IO.Pipelines.PipeReader" /> that wraps the <see cref="T:System.IO.Stream" />.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.OnWriterCompleted(System.Action{System.Exception,System.Object},System.Object)">
+      <summary>Registers a callback that executes when the <see cref="T:System.IO.Pipelines.PipeWriter" /> side of the pipe is completed.</summary>
+      <param name="callback">The callback to register.</param>
+      <param name="state">The state object to pass to <paramref name="callback" /> when it's invoked.</param>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.ReadAsync(System.Threading.CancellationToken)">
+      <summary>Asynchronously reads a sequence of bytes from the current <see cref="T:System.IO.Pipelines.PipeReader" />.</summary>
+      <param name="cancellationToken">The token to monitor for cancellation requests. The default value is <see langword="default" />.</param>
+      <returns>A <see cref="T:System.Threading.Tasks.ValueTask`1" /> representing the asynchronous read operation.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeReader.TryRead(System.IO.Pipelines.ReadResult@)">
+      <summary>Attempts to synchronously read data the <see cref="T:System.IO.Pipelines.PipeReader" />.</summary>
+      <param name="result">When this method returns <see langword="true" />, this value is set to a <see cref="T:System.IO.Pipelines.ReadResult" /> instance that represents the result of the read call; otherwise, this value is set to <see langword="default" />.</param>
+      <returns>
+        <see langword="true" /> if data was available, or if the call was canceled or the writer was completed; otherwise, <see langword="false" />.</returns>
+    </member>
+    <member name="T:System.IO.Pipelines.PipeScheduler">
+      <summary>Abstraction for running <see cref="T:System.IO.Pipelines.PipeReader" /> and <see cref="T:System.IO.Pipelines.PipeWriter" /> callbacks and continuations.</summary>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeScheduler.#ctor">
+      <summary>Initializes new a <see cref="T:System.IO.Pipelines.PipeScheduler" /> instance.</summary>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeScheduler.Schedule(System.Action{System.Object},System.Object)">
+      <summary>Requests <paramref name="action" /> to be run on scheduler with <paramref name="state" /> being passed in.</summary>
+      <param name="action">The single-parameter action delegate to schedule.</param>
+      <param name="state">The parameter to pass to the <paramref name="action" /> delegate.</param>
+    </member>
+    <member name="P:System.IO.Pipelines.PipeScheduler.Inline">
+      <summary>The <see cref="T:System.IO.Pipelines.PipeScheduler" /> implementation that runs callbacks inline.</summary>
+      <returns>A <see cref="T:System.IO.Pipelines.PipeScheduler" /> instance that runs callbacks inline.</returns>
+    </member>
+    <member name="P:System.IO.Pipelines.PipeScheduler.ThreadPool">
+      <summary>The <see cref="T:System.IO.Pipelines.PipeScheduler" /> implementation that queues callbacks to the thread pool.</summary>
+      <returns>A <see cref="T:System.IO.Pipelines.PipeScheduler" /> instance that queues callbacks to the thread pool.</returns>
+    </member>
+    <member name="T:System.IO.Pipelines.PipeWriter">
+      <summary>Defines a class that provides a pipeline to which data can be written.</summary>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeWriter.#ctor">
+      <summary>Initializes a new instance of the class.</summary>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeWriter.Advance(System.Int32)">
+      <summary>Notifies the <see cref="T:System.IO.Pipelines.PipeWriter" /> that <paramref name="bytes" /> bytes were written to the output <see cref="T:System.Span`1" /> or <see cref="T:System.Memory`1" />. You must request a new buffer after calling <see cref="M:System.IO.Pipelines.PipeWriter.Advance(System.Int32)" /> to continue writing more data; you cannot write to a previously acquired buffer.</summary>
+      <param name="bytes">The number of bytes written to the <see cref="T:System.Span`1" /> or <see cref="T:System.Memory`1" />.</param>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeWriter.AsStream(System.Boolean)">
+      <summary>Returns a <see cref="T:System.IO.Stream" /> representation of the <see cref="T:System.IO.Pipelines.PipeWriter" />.</summary>
+      <param name="leaveOpen">An optional flag that indicates whether disposing the returned <see cref="T:System.IO.Stream" /> leaves <see cref="T:System.IO.Pipelines.PipeReader" /> open (<see langword="true" />) or completes <see cref="T:System.IO.Pipelines.PipeReader" /> (<see langword="false" />).</param>
+      <returns>A stream that represents the <see cref="T:System.IO.Pipelines.PipeWriter" />.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeWriter.CancelPendingFlush">
+      <summary>Cancels the pending <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> operation. If there is none, cancels next <see cref="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" /> operation, without completing the <see cref="T:System.IO.Pipelines.PipeWriter" />.</summary>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeWriter.Complete(System.Exception)">
+      <summary>Marks the <see cref="T:System.IO.Pipelines.PipeWriter" /> as being complete, meaning no more items will be written to it.</summary>
+      <param name="exception">Optional <see cref="T:System.Exception" /> indicating a failure that's causing the pipeline to complete.</param>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeWriter.CompleteAsync(System.Exception)">
+      <summary>Marks the current pipe writer instance as being complete, meaning no more data will be written to it.</summary>
+      <param name="exception">An optional exception that indicates the failure that caused the pipeline to complete.</param>
+      <returns>A value task that represents the asynchronous complete operation.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeWriter.CopyFromAsync(System.IO.Stream,System.Threading.CancellationToken)">
+      <summary>Asynchronously reads the bytes from the specified stream and writes them to the <see cref="T:System.IO.Pipelines.PipeWriter" />.</summary>
+      <param name="source">The stream from which the contents will be copied.</param>
+      <param name="cancellationToken">The token to monitor for cancellation requests. The default value is <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <returns>A task that represents the asynchronous copy operation.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeWriter.Create(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions)">
+      <summary>Creates a <see cref="T:System.IO.Pipelines.PipeWriter" /> wrapping the specified <see cref="T:System.IO.Stream" />.</summary>
+      <param name="stream">The stream that the pipe writer will wrap.</param>
+      <param name="writerOptions">The options to configure the pipe writer.</param>
+      <returns>A <see cref="T:System.IO.Pipelines.PipeWriter" /> that wraps the <see cref="T:System.IO.Stream" />.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)">
+      <summary>Makes bytes written available to <see cref="T:System.IO.Pipelines.PipeReader" /> and runs <see cref="M:System.IO.Pipelines.PipeReader.ReadAsync(System.Threading.CancellationToken)" /> continuation.</summary>
+      <param name="cancellationToken">The token to monitor for cancellation requests. The default value is <see cref="P:System.Threading.CancellationToken.None" />.</param>
+      <returns>A task that represents and wraps the asynchronous flush operation.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeWriter.GetMemory(System.Int32)">
+      <summary>Returns a <see cref="T:System.Memory`1" /> to write to that is at least the requested size, as specified by the <paramref name="sizeHint" /> parameter.</summary>
+      <param name="sizeHint">The minimum length of the returned <see cref="T:System.Memory`1" />. If 0, a non-empty memory buffer of arbitrary size is returned.</param>
+      <exception cref="T:System.OutOfMemoryException">The requested buffer size is not available.</exception>
+      <returns>A memory buffer of at least <paramref name="sizeHint" /> bytes. If <paramref name="sizeHint" /> is 0, returns a non-empty buffer of arbitrary size.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeWriter.GetSpan(System.Int32)">
+      <summary>Returns a <see cref="T:System.Span`1" /> to write to that is at least the requested size, as specified by the <paramref name="sizeHint" /> parameter.</summary>
+      <param name="sizeHint">The minimum length of the returned <see cref="T:System.Span`1" />. If 0, a non-empty buffer of arbitrary size is returned.</param>
+      <exception cref="T:System.OutOfMemoryException">The requested buffer size is not available.</exception>
+      <returns>A buffer of at least <paramref name="sizeHint" /> bytes. If <paramref name="sizeHint" /> is 0, returns a non-empty buffer of arbitrary size.</returns>
+    </member>
+    <member name="M:System.IO.Pipelines.PipeWriter.OnReaderCompleted(System.Action{System.Exception,System.O&§ÂáOi‚ªâ/ıºş®RuY“"¿ÜäD9•ª@¶›ôU"ˆ2=pn.Bİ=·ÏR¹T.Æ\ä>ŠY…Sít_¡àÀMjNjçÒÃ Ù_K¶Ø§ˆßJ¶ÙOÊk*•‰¬‰vk“ÿá›uµ‚!¨2„I…Ñ6Êé}Y*XJØéŸ$1a…M$›5ÄDä¹Šéá”®réÊjXñ‹#ª! ^89(w†jùx§GÒ6­”`U†š±Ïs™Í¤İ_ƒ‚ïA˜‡¢R©ÏläjLwşÎŒÌü¿ÿ‹ƒøşfx$sAÑL­´ãjJÓòÔ &§ª’Œ&9ÿâÀI`gn¢¾ÜoåÅÕtDšª[Œ>0ÂM©/æ2ÍuÑLÉU+;œ² óÿß¡Bà„"õ=…$³EÓ¥ŠÁpMÚpl®{|b9kOTÑpù±"I-É$[N¶´II£ÛCJI[-×®·=ëœ¤7×.­—;é…ğ€A
+EÚcçÍœËŸÉúàWUÃ•—¶£%óètåö=–aÑg§Jg+àÊÚé¿vÎÉyÅ´Wog\\&t®„ƒçéİ
+P—Lô7y.‹z|×Ov†¤ÙUfVpâß‡EpÛÌ¯ıÚÁœ%û1ğ«¼%ıvÒuâNÛµÄ¿.¨èöô9ø'?°™u»è/ß/rËsú ìpNmÚ¨Ê“&„©¦Ó=…79=Ó@qÆrØé£áŸÿ38¨‰ro&|²	eK9(¼b<f“Ğ¹'ğüè.Ú?cÅ j‚eµQ^ÿüR
+U:äóÜğtü0@@~şr£ö·Ï˜^ğ¤X9½VRºeüŸpùÉ×ÆP¸›á/Õï>W’¥ou}½î²Ú.{'‡ˆ|ÅÌİDÙÅ=Æ”^Ïp²z	Óñ0z^
+‘KHV¸¸¡»;e÷=ñ¶_² ~I'-~œ,2) ø"? ¥k˜ßœZ˜
+É‰ºİúÕ¶ı07~EŞìİöÕD7à[Ç[j´®´Øém¥E¦IÂÊ¹é¨tWjùœŠ"¿éÒ—c°Ë2ìrŒ=ÌÄÛÔ”,ìäûô:µŸß¡Ş†¶ä†bç×Ç[Ë%ÁĞñ­\1¼Ü–	+îk*‡=Ãœù¤³ûí¢c7Ù1mìQ®Uµlwiù°;:]nscÁ¾p¿w» ì-[>“ÍòÈ}G›ÚßøyµU¿h²,]’	¢µXµ¥L-­Şª·
+1ouóûÒ:!­Ê¹öEé6_íD¯z¾fkÇoeôĞËt–Şyøª±¯szŠ‡*¡xĞÛ‘ô×c)qM0îbzòëAëAì$
+dgÀÀAj~Û3‘]q_%/×ˆh@óò×Û|‹‘ş®÷WÖà´€I‚Q¨x P`>`6¶ O˜0J`Nv, fp 6Üø§&%hBP
+Tâ?H˜mæ´çXP 4‚Ï	¬˜L,°h?7Â x´3ˆªàA(‘$¨A «r¯µş¶6ÁË„‚Á	*u  ½6„¹Aïb3Ë€ &&nàc{³	¸`²+€îAJA˜(ÜÀLjÀ&€Ô¼f°PA 
+/,‹à…˜ÚMà5ïİ
+PVğ ‚€šZ>ğŒ 3PÈ P‚D6aÖ ¼ƒn€Ï¬È à‚H<<(=@Ak‚Ü¼Ë ˆ‚€–,ĞXı6û›ßÌ‚@
+xUà”0K1h PÕ6æZ4XÍ  Q`Æ  °xMF5¨ÔÀ@ƒà
+áY!¤„‚ƒ²;€k°Ò°&€Â ,˜ 3XÓÀXƒ øÆ¦${à*pÈ+`j°Á°›:TuÀ`àà	4® @´¼E`ØA0€±Ø3Z	™¸QÂOËšŸ%¼„‚ÆxĞàL<öúi'Œ^-Òäh1a–€ğ-Ğ¦€ø±F3à¬€€Áï	4,@hÀ6´én°†4,pn3xT@ ¼X`Àßm²Ùzè ®
+d¼ƒ£~æ43@Ó`VP}üE	3Àë´4 €¬,p¬Ì˜:m°ù¸eDñNşâîì`=ÔPÍà;<lâ’•xşç	İ7*B6"aï½KãV8	[êQpz·´ÔŞ÷$2Â 9w%ØIõZS>ÚÔ&]ª½uêÿ~åÆ$ÊH	ãt+8’$
+¤^Òm°f=^WLÄ1•ÿá–uêó>õ¢øsäá ÿí  t‡ˆ©«ªª¹šª»ªËËºªÌÀ¬Ê°œ
+«™ËªÌ¼º{yw—ˆˆˆ—g‡x¼»«Ë[gFxW‰uU–ee—xÊÌ»©ºª ºª »»
+ªËËªÌ¬¼ºË¼ºËÊ	Ì«ªËÌÌÊ
+ÌÀº
+Ë»ËÊÊË
+¼ÊÌ
+ºÌ«ªÌ
+ÊËÀ                     À‡ÊºÀ    ‡™˜™°¼«Šˆ™™ªÀº¬w˜™Ë¼ÀÌwˆºª¼À °†ˆ
+««   wˆ™ÀÊÌ Ì‡™É    ‡¨ªËÀ   ™ªÀÀÀ                        Îû8sïÎ¯Âp‹ÎÙ^¸‰O<;°¯Îáp áŠNÒ­NÃÎÀßr¸Î‚ƒ:\gWÃ)p„œß>o†sğÓûpàFóh¢çûMNÁÜ8 §y|ÃëpÙçÜïÃ=ä‡s¸‡»à"§zŠ§™íÂÕÃs8®‡¸êÛ~õ†³ìÁg¸,œ#\%¸Ãåp:ÜÃ•8à”oyzg®ƒ)‡çÏÑ“O¦ò[Êé9øÙîÃåûõÂºH*Ú¸M@v€Êí,€Ø‰©La®²F-ã üA’ß@ôä'²FAìühÈCt0;-°‰§Áè­hXEÙTD¢N8®dİ9A˜#Æl˜X=hÉ$Fƒ†ĞÙ­ S(N„²…D±˜¿·®F:ÉG€íõµ?k!´ØèMGXTg”'6º3Å•;(KmŠ ò$º#>ª$ô«H‘÷ä®¡4¶Ğ¢¢NèÊôƒ‰Ì7«ù†v…ú¢"IJPW¯±ÍØ*µ$¡$¢cç
+cE!K®&Á£Œ»¦0ôÜÑÍéõ†#†¤¶
+
+[õ‰Öê® °„ïÕjQ¹6Å0×Si.Ÿ(«Àæ-®Cà»Aû ½ìÍ0g	İûà–Ç06v.ĞCÏ²¸ç†``g„±Y×ûŸ~”¶«º2³€É«èY´ôüfã›%æ=¯
+ ƒùa2E~ŠŒõóBHc™‰¤˜ Îëd%}, ÒÈ¥ v(÷Ó¬«¹Ğƒæâ«	Z„ÎˆäÜ·@·eÂ‚t­­5ÅæW„<Ê„­"¦#‰£§öFz6ÑQW½¤QÊ´™hKQ_(A5Ä{‹ŒÏ£â¶¶ş°Mx™åËUrĞğµkæ¾£µª¡$b¡YÒ°¬1Lu‚-Ò&Å,#‹¦ Ìš}šŒ<k<a±ynfD£à¶¦Ô¹×—iÒ«?İgCP ¡Ñ÷â,şY4.‹1×Ğ<ŸŠT¢X§Êl%zßóÌ¬ò^#¤à²)4´:1ëC…øCîÁ±¶H®H&¤©c—ÁÑãF‡ĞÍÌ?|awn€†°FUXcdÍœ{òi¢âMl˜“¦k"± OmÃIğ>^æ)BşİJK>ÙCÄ¿c®İ¨ìuêü MÕàP?ôÈBE$ÎL<È±RËêPJDğş?„ïYÆÒº} yš†”¥Q1’’ñ/ûğ‡Ùn^£å	(•¡<–:ªEcSöíÈ¨Š¹²`Ç˜ 	˜òˆÑH;Ú0/d«>¡Çÿ´/$Át
+X(ÔÆqG 9C©/¬ëh¦Ä‘Hó…~LÛ†ù†Nü^8=d É­2¬ìyÈ’9E”§´¯EœLĞUŠqÕÀRŠLªÑ& ¾é ‰öM‰X WÒ^2Æ{YaÔa¶»ÄAEÀõ‘„Ÿò1Œê!­õÕI)© ãÊ9&ëT Uğ¡™zÑİ4eü³}ejjµc|Š­__$L­jN£%[Ÿ	QWK«ÔFP5ãŠıQ*Ù¾:‘(ÃàŒyæfİÕÎ®Q»ÛÂj‘[{É*H4ä–âXwEË%¬÷?%Pñƒ®J%™¹²xƒr)Z á^Å`øz„]'xí¶‡•é€}p„J”?Ù"C/âš5rV¹»YOüz!w¨˜4ªŒ–rQeS\[Xßœƒ!zî&êhëv‰AÖ
+ãVŸŠH|RqTÛæ4‚[AtøLÓ%“L%·$” öŠĞF°d±S\‚@?BÉ‹©Œèû˜¯S”!¿±—R#EpP@’3çôå•­N#î6ƒ²ù{ÊíE~È@‘zy€Ô^õdW”{ˆağA…µ÷ê¢BA`7¥í›aî³•5X¬ë–ÇEz˜¥é(w|xiUIV&9(ËXÛÀî10ßğÔÉ×!QOÜ¾… tìiæ¦”jùä71]}^òhlúâ‹S„©•ó:^Gì‘—Eha;ÎıkMº8oS!Z×ªø®8¹Š,‚FzêŒˆ‚‚Ë±c|p!˜ô´É!S O®Ö¥„‡ôdŠm»iÔ=·èŒe°+b*L äXt|{g‡ûã (Îúbè¬Â /8?bÃïäÅ@ª¨Ûƒ¦Êv¨MuhÙ¶ÔÓRO…İO‹\©]²¾å–Z*GCŠ*ªÏ}JwÉ	ÂòFqÙæPÑˆ˜£1{‘}¨ÏÕBoÇt½Zµ& ^E:Di]•TM±¦KºˆË CÜ{8ÇY“ÚM«õoÒ½sëû—tØ¢s”,Õîq/¿XÊi9ECĞİrI İ´ú`¶øê JÕ;ğ•27:ã¿	/„’ŸÛøàS7LĞÁØâä>«˜ÀJrı*¼Õ™ÁbË˜K¤ÿ,v ‰uÆ*»şŠºÕÄ	éjäe‹S˜O¸šV­²Zl³äîŠq8îıÀÕ¢¥ù İ*½.`Ñ„E3êªi;òÓ4¡ĞßŸp2BXÉH¬†É‡DÚa> ´§æ‡BC”µèi›ä§ f8í‚ YµMr“³ÙFC™ª [é¬Ÿş¡»ßà6*G¿¢¿YÀ‹LIq˜}9°Ön¢<zÕ»¾´e˜±¹¶˜kl“>4f8ß«lÉhõQ`†VS¨X¦àªOÀ !Ó ,¯1„ÒËS;ÂJi»¦*AC¹Šâr77ìäV P{c”{!cJÌ4L	b®Õ‰1Ä…•Apvn›éÒ,ÛùH2y…jä‘«EEP
+;0ƒç’5eÓù‡Öß"e—%cN7sâg¾_š'£ˆŸ[Ì 6]D?H¦î‘‡P¯¾–œyb’
+h±ëøZ«(›Lx2¬aUÅE€¦`êÂÆóYúßØÙ1çàƒX½UDJEŒÖE¶^^èÄ•bBEkÂòN«É‚-¬ÎBå)8yõò`•²ŸSò¢ÍÖZUT‘Q‚§Ö”?­Yo k‚|)«<%®‰±`û$ºWêÂè–â•¤Éš 8¹cKµ‘k’wƒ=Ë7h+-bÅ\ym çâŸR‹ø/V+Ó¤{~ÈlçŸëeíÄ1œËƒcælYò’‘fñAŞ'–¹U2ÒÕ
+¨;šo‰¢«à9g)Œ¨RÒ”Mls àô#şX/kRéëÖu_Šz7n:hA\ˆC´ô2ş|Sè#3ñ}rFĞtDi.µpm@T“ÖM×mzBš.Ò˜,VQQa8²¤aÊN‘Ì³¼.Bg›}X®Èş‹5÷EgÍ+F*æ-³2pïu#tÉá³H43OÇa3¥/©l¢­Fn4İ f®,Ú·º½gˆ¯&5Üa©Wèíš´Úp‡o¼qµøÇ	MrlŠr×?(½yT‚Şdr	ZÅæBÒ/À_Ï[aeP6	ÜH`‰m!Ç‘¡mR(I‚vF2›o¦˜nªÚğcz£5é|ã$¥Û±øPa¦Á
+ÌaÿÉÑÊ,öëù8 _İÔv]Ã´e¸3‘·´¯±D¤º'MOı Q%!W–\Ô]¾ëïÄ¬Ç’´ºJåÈHQñbİ{ºøÃ#_å>CĞeÃÀhA\.8>¥~›uBû¸3çï‘x^¤0s&ŞÖrSwna$y;)…“Q•e©¦—Áj‹Ôöÿ¯•å†B	a¯2iH†øµæÒHdø‚BÆÅá0}Ü¼ÀÕ#äª5èğ'/§ˆ¡CÓ¼¸ù›!ç4ï½,ÈøÏÌÂï”ÜĞ5ÿá˜’¨Ó„ï§ş!‰ŒíÅÌh±Û ›'ëâ¨«·ø%Ò}ıÍ ”¼§ÛÙ^7†š&íuØPSvàNS‰âlÆ¹Æ	£¤¶ªº:nî-EeVLŸ­S›©-0üııtP¼ó¯8è'ø	 I;¦w+ÏRjP‚@ò-µ¥œB|¡vƒ²¸Ô¢z<~Ú1ã½o×İ ]• å'~èÍ¡ş•4Ç”¨¸}*WHºA¨.—6M“ÅBÅ”ìCû½–DËšeoOÿÎs£æ{SŞå‘–¯—Ë~{tbÇçÚv7‘XEeyáÿoyÍ¿‹şŞüNÈ—ÖII]Õ²:çÆ5.–‡ıGYB“¼­ÂîÓÍB,Û* F¿¦Ø1dÊM•*^§öŠ(òŸœ\‚ÌZ*­HÄrÀ™óšB;lb¡¸û”™é ®WXY;E»hØ
+Ów`‘_Dnt§6Å”¤ƒìÜ£;ø,­RA±B­
+{¶äkõÅM­ƒb¾ô­s¹U½±ÿ\»ğ|ÃÖİ¨0ª6tƒe÷á1¾‡u`;¥³¹-ˆ´!?¯µg×ôZ×øĞ¢{Öò¡†Sæ«mÁNÈ‘QÑ"@Ó°§‡ïm¢ é|Ş¸qôÉ„²ò›24´ÃÇv¸9 \ŒÑ~³æ0svê¿²à¾‡Ï:ÛWVg›…%¡}¸é(¨¶ÿvÔùLl¥¼N•ÀÈª˜MÛJÙ§ÄÅ	w{ç áñ©/ÕÔ×ZkCÖÇ2÷³n%'*<>ÿğ'\X*†lÔÑ€BWPJ™ŠbZb$›’xö÷¢*S! ë?ø’ú•µìm?-.O(j¦ÛO(èÒÖ!Ê¼€Ç+Ìdø'µFü‡3¶‡ûp›¸ÑWPñØ
+Ÿ:loæêh=…ó|ìÈ.zK2Ø¥¿¶‡Ûá¾§·NŸÃœx„ƒÑ¯Ë¶ÃÜ¸!„^æ©çy› ÑÜœìp8Óîqc*‡Ìáôl¶æ|n¿ş.Ü3+hÿ ó{£	š“S3¢FÍhÍÑ$M¿TÀÑÍÑ|¥ß ïpòÏïNhöæá$ŒŠ&Áù³öEš1(ÍÉÄõèGÓ"Ì3¸0œ¶Ñüæîêh¡ÿ €4ô0ÿÎ½)şó ñ7cÍ>”ëßà…Ã^ñ7¿§Uşº5ÑñÇ_¿»© è      ÀkŞ:À ×  „¸‹š
+€ˆ»°ª¶« ˜»`xvwv‡w¹‡Š˜™©	€°ˆš›©˜
+
+ °iwV†x»ww·f†ˆ‰°°°ª° 	»°    	  °º    «º °   »
+°  »   ª   °·  	 
+i     °       —¹     ‡	™° €vºŠ‹ °g	p»› »v˜xª˜°`vˆˆ«p‡¹˜«‹yw¹ˆ»›	›šh
+ˆ ˜ px	™ ª°€°°
+ ª                           ½@ºUGVùüIqÆĞ¸1B}ØPŠŒ³¦ïoCiõÀ;¼§éğuCÁ«¨¡Rß‡`AsLÇ~.•ıw0¦İYéëŸ‚‚a˜ê•>¾n0Ü|„òŞ>˜A†Ï
+L‹G… @ÌşY…Ö'¥ˆ·g¥Õ{õ—µÆ§|:©ö
+s‚'_®é•íîRmã³áªûªg]ßbÚÛ8ÏÍíeuxfîÔ£uºWkrŸãzk0Æ÷z”bé8£8ÇÆíSxF×ãEì‰±³îªÕé­K{9®˜Íïp²#—;5ÏÅ¢ò‚ÕÖäf­ğ-«Oq»ßätØ¨Ïx&ùÓÙßÒ[µ«çïQßò×ºÛ†h¾ÃóÌëß¯—“;G••“—CÏkíWë ±k†ÿöõ´©İÚæº	æøû¨Ñ ‘rh°v¤6 ó½G×7¾¦Êø2·vQ^%ÏÉÕƒ™Õíüªİ£t8Ñíøö%è~¹ÿ§Ì'^¦Âsu*ù£§_½ˆÔ¦Òj—êñ{!1ƒÔYÁ-™%–“”cÁÌAK„¶ÈFğ¿’²ÁfW“Š™“mÇLÔK$¦C’,lÌ¥È$&¦j1C&d³°á’äKÜÈÙ´åYl%ASj2l iÑRKÍÚA&’“ÅÛap3và‹¬Æ …UY*DÔRS¸#Ã1É!M0VG1»jÉla)È2ƒd›•Éı…ÛXş¯ß‘Ú1õqL¯/}©0æ³²KÛ'œ†6>ºÇßO	‹†ZßĞL»]ºZ+v!¿‰ı‘ä¶mNÜ&…«'j;cÕßŠKµ:«ízïW#:tßŸø»£{­"—g:Â¸œˆ.|‘ş×Íöş×ëïS"a	®óœ°úó6Äî¡ÄÂ`;P÷h•mD·`+8ÛdQçıĞğ S}&z×ıU'è(”“ÆãÛ6H=M ÀtĞB6Èƒp°ÂVÆ†è4Z ˜ n#q ®^Ûx„À¨T·@q'ò;£™^SNğa†0àã$9b0ò$Ré{¿¦dI6p„Å9ÿ(˜ôEÓ+ØñA[‰‚ÃáC?GœŸr*‚BÕ‹]PÀq—3Ç@´·ğcTÕ3ª (Äô[5‹¼êUØÀQ¦¢r­é.%¢¢+ËBt8ÓÖÔ²â4ù Ùi&J±ˆ§×¸ÃÊCî!¥š+<ÕO k€æ´YÚb'*ª9Uó(-™¼åE¨9·v;ğÄD'ş…Å¨¤òK;ù|ŠáÛ\\‹¬Ke-C¢¤	æŠ=,T˜aİŠÊyP<Ï|÷ÂÏ˜ÇrĞ>ePËZ%Ì¬2ˆ¡pôÁ Nª '<Z`æŒùÖ$(Dšz…˜2f´"HPA¡	S3¡ĞF0ìI2Õ#RSÜ ç¤y‰gp’e3Õ<Ö†ôÍÏ §Y{€˜·>Pö¸³?Šæ#†®ªë©3"Ówy	ıú£®7 ‡!‚»ı}†ğ±doÜ›7µÏî·®{ï?0„w…Y
+Êßwÿ÷9¶oèöv³^áÂ!»#KP‰”	IIÇG(çé0¹ÄKP©üô9åD˜‚BR3ÿı„' ˜Ñ%$"‘XÿñŞ{¯üÅ×‡ A	0ã«¼Ø¬(‰PÌË20øùˆ<y
+#&c
+æ€x˜A¢Ì/˜ºŒ	HŒ¥sA©Ë
+D¢É¸4iF?çØ&+ŸÂĞğB‹Apˆ  ‰³làÈGqyCN–O‡½‰øÏv```´t@èßâO	Iaa×£¿OCgE`¡'îÃ&÷&0$¾ÈÑ¿ s2#‘Ã?ÑÖ'D$©*»PÿøäÄt	xA–İw÷Ít¼„Ò†‘I¦,¹XÄBq$ˆe”ÉŠÏ­H=¢%ˆØÖ¤IæÙËÂÊiˆ-æ¿¸Q´œ†(ñ’d£{]îšß	ÍÈ“FTÉX©&¶3â1*Œ‘q"äƒ2&;	³"Ë‘ùJfˆã·Å¸ÎÌà— ” Æ™£B\ñ;Âdmò¤å m3b‰8§yBÒâÖ›XÑ¤'¤NL±XZF3G
+#Š7iš1àÃp±:gÈ›á8êâ@Qî ª‡^.àøÁ\ Û4çA!ÉãjOØÔÀUiz:qÇ¸:AÀ:§=O­ºŠ ñ‹¥!VÖ³G»ìø/!Ü_†ÄêäN1&/×:†ı$@‚(ëH“Àt “ˆ‘QdIHqÂ!e’^$qÉ¢fF`“$e.ä³@9I
+r‡4±™{çQ$~‹ÀM
+wÑAŠ¬ÖOKâdÉâ„?ÚM†È_0‰#
+çÖ4‹PzÔY/N4ç£“*“¤š2¨™#,éHœ3ÿíR«æ“¤†éX‚µĞŸ#)×Ch¡x¼ˆŸé?å¨À!=ŒBéÄ>’Æø'ÜI8ŒôÔãÈ&¿¼ÌÂâßDOfaˆ5ç€x@!x€ğzCzëeÓ³0va\àZ5fÕÿP«àzHxo b-Óµˆ‰øôPÃfÄzc&Õ\Î2`›ê
+1‡×ˆ'CÍx.€ ‚ ‚    €‚ ÷  …€p	  p    ˆ   ™™  	 ™   	    		  		  	 €    	€ 	        	™     	 €    	  €        ™		         ˜        	Y	       		      w 	p‡ y y ``	‡  €pP g p  `GW™€ppx	g˜p ‡@p i	— ™Ppp	x€p`		—‰p` —		h yy  p                        J)éázÖxxıø,X¤°R„›æè6;rr…{òã%9¶ÛhÛË€¢‰yÃL@P£r2ğ¨ÈëÈs—Í#	 x‚Mbj‚ *~76®<7xö CšÌö3!ü&Á<ÍäÀ„pBàÎ-. dF€ğ#¢—0—ğ€à
+„ùR‚Ô”Ï“ª%¦$‰Ó´Ğ‚R™
+ªÉÎlB f$pŒ”í/NQ|Ğ =@¤ X
+–5’<ˆ¨P€p%,pú}ùYå9@p²9;“=ÌĞI "8ğĞ	1Myq ¢š$O4 X¤;8ÆÕVÒKUVz€¨¢(±Usbd‹)€@1@2Òÿ‚#Æ€NE
+^E(ä na€RØq@¬OC0/&¦/'~e Xƒ
+ĞRÏtÑSV2EE†âGbİ¸7ïÕºÈĞ¯Är `vb™A¢‘‚"ÿfÁ Ù§	xõIP,‹6’$º:?èàU ´Ér,4Ol2ÛJ°WWÊåW›+”â/„„xwçNHQ‚	„ğønBvt6_BÇø%$òó9"IÂ;]lÑÆGL|·'¸ƒ~ñ¾JïY y$ºv3!(>‚Ã&X.;Š™•ü>ŸˆåWä^ )§Á-©A…Ó@.¹¶+cƒq0óå2à¥™›–A:'´
+éÈâé>éÇ¼4'2<a
+³&+¼)(FB¢äÅ`º !òjà[c±€
+¦cl×X'ÃA
+_¹œ hœ.N
+)ˆ©-=Â „=H ˆ‹N‰'€+)-MÅ„
+ÇÙ
+!HRŠº Ú<
++ t±FTI ‹eI§3£KşÓL+åh’W^dFV^[G
+®K$ b3‚L,€<®a^-
+˜Á+‰€È(ÒÀ&HƒH¹å<ñÎj‰
+
+!0
+ä!0™á–&ÑEUiKÿîğX{"r*Šú'Ö·àŒ.ÃòØŠ;"JñÚ"÷³6	áHä(Lqº(Ç«q¼È#AÊg0"&DÖ ğÿ  †€p	  p     ˆ	 	 ™™   ™   €	   			        €    	€ 	   €     	™     	 €    	  €       ™		         ˜        h	 	     ™       …	   †y — €Yp`	x €`y `	p  `H hw €`Wgi	ˆYi€‰‰P` ˆ
